@@ -1,0 +1,257 @@
+Welcome to QMK MSYS!
+  * Documentation:    https://docs.qmk.fm
+  * Support:          https://discord.gg/qmk
+
+If you have not already done so,
+  run qmk setup to get started.
+  run qmk compile -kb <keyboard> -km default to start building.
+  run qmk config user.hide_welcome=True to hide this message.
+[Alex AN515-53@Alex-AN515-53 ~]$ cd vial-qmk
+[Alex AN515-53@Alex-AN515-53 vial-qmk]$ make c75stm:default
+☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+⚠ c75stm: Build marker "keyboard.json" not found.
+☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+Making c75stm with keymap default
+
+☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+⚠ c75stm: Build marker "keyboard.json" not found.
+☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+⚠ c75stm: Build marker "keyboard.json" not found.
+☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+Generating: .build/obj_c75stm_default/src/info_deps.d                                               [OK]
+☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+⚠ c75stm: Build marker "keyboard.json" not found.
+☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+⚠ c75stm: Build marker "keyboard.json" not found.
+☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+Generating: .build/obj_c75stm_default/src/community_modules.c                                       [WARNINGS]
+ |
+ | ☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+ | ☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+ | ☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+ | ☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+ | ⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+ | ⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+ | ⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+ | ☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: Build marker "keyboard.json" not found.
+ | ☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+ |
+arm-none-eabi-gcc.exe (crosstool-NG 1.27.0.82_7f9d704 - qmk/qmk_toolchains @ a55a2b0) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Generating: .build/obj_c75stm_default/src/community_modules.h                                       [WARNINGS]
+ |
+ | ☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+ | ☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+ | ☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+ | ☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+ | ⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+ | ⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+ | ⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+ | ☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: Build marker "keyboard.json" not found.
+ | ☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+ |
+Generating: .build/obj_c75stm_default/src/community_modules_introspection.c                         [WARNINGS]
+ |
+ | ☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+ | ☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+ | ☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+ | ☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+ | ⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+ | ⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+ | ⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+ | ☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: Build marker "keyboard.json" not found.
+ | ☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+ |
+Generating: .build/obj_c75stm_default/src/community_modules_introspection.h                         [WARNINGS]
+ |
+ | ☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+ | ☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+ | ☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+ | ☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+ | ⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+ | ⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+ | ⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+ | ☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: Build marker "keyboard.json" not found.
+ | ☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+ |
+Generating: .build/obj_c75stm_default/src/led_matrix_community_modules.inc                          [WARNINGS]
+ |
+ | ☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+ | ☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+ | ☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+ | ☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+ | ⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+ | ⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+ | ⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+ | ☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: Build marker "keyboard.json" not found.
+ | ☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+ |
+Generating: .build/obj_c75stm_default/src/rgb_matrix_community_modules.inc                          [WARNINGS]
+ |
+ | ☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+ | ☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+ | ☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+ | ☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+ | ⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+ | ⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+ | ⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+ | ☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: Build marker "keyboard.json" not found.
+ | ☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+ |
+Generating: .build/obj_c75stm_default/src/info_config.h                                             [WARNINGS]
+ |
+ | ☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+ | ☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+ | ☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+ | ☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+ | ⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+ | ⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+ | ⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+ | ☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: Build marker "keyboard.json" not found.
+ | ☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+ |
+Generating: .build/obj_c75stm_default/src/default_keyboard.c                                        [ERRORS]
+ |
+ | ☒ c75stm: VIAL_ENABLE in rules.mk is no longer a valid option and should be removed
+ | ☒ c75stm: DEBOUNCING_DELAY in config.h is no longer a valid option and should be replaced with DEBOUNCE
+ | ☒ c75stm: DESCRIPTION in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: PREVENT_STUCK_MODIFIERS in config.h is no longer a valid option and should be removed
+ | ☒ c75stm: RGB_DI_PIN in config.h is no longer a valid option and should be replaced with WS2812_DI_PIN or APA102_DI_PIN
+ | ☒ c75stm: RGBLIGHT_ANIMATIONS in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: UNUSED_PINS in config.h is deprecated and will be removed at a later date
+ | ⚠ c75stm: DEVICE_VER in config.h is deprecated in favor of `usb.device_version` in info.json and will be removed at a later date
+ | ⚠ c75stm: MANUFACTURER in config.h is deprecated in favor of `manufacturer` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT in config.h is deprecated in favor of `keyboard_name` in info.json and will be removed at a later date
+ | ⚠ c75stm: PRODUCT_ID in config.h is deprecated in favor of `usb.pid` in info.json and will be removed at a later date
+ | ⚠ c75stm: VENDOR_ID in config.h is deprecated in favor of `usb.vid` in info.json and will be removed at a later date
+ | ☒ c75stm: VIAL_KEYBOARD_UID in config.h is no longer a valid option and should be removed
+ | ⚠ c75stm: Build marker "keyboard.json" not found.
+ | ☒ c75stm: No LAYOUTs defined! Need at least one layout defined in info.json.
+ | <class 'UnboundLocalError'>
+ | ☒ cannot access local variable 'layout' where it is not associated with a value
+ | Traceback (most recent call last):
+ |   File "C:/QMK_MSYS/mingw64/lib/python3.12/site-packages/milc/milc.py", line 609, in __call__
+ |     return self.__call__()
+ |            ^^^^^^^^^^^^^^^
+ |   File "C:/QMK_MSYS/mingw64/lib/python3.12/site-packages/milc/milc.py", line 614, in __call__
+ |     return self._subcommand(self)
+ |            ^^^^^^^^^^^^^^^^^^^^^^
+ |   File "C:/Users/Alex AN515-53/vial-qmk/lib/python/qmk/cli/generate/keyboard_c.py", line 271, in generate_keyboard_c
+ |     keyboard_c_lines.extend(_gen_chordal_hold_layout(kb_info_json))
+ |                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ |   File "C:/Users/Alex AN515-53/vial-qmk/lib/python/qmk/cli/generate/keyboard_c.py", line 215, in _gen_chordal_hold_layout
+ |     if layout.is_symmetric():
+ |        ^^^^^^
+ | UnboundLocalError: cannot access local variable 'layout' where it is not associated with a value
+ |
+make[1]: *** [builddefs/build_keyboard.mk:442: .build/obj_c75stm_default/src/default_keyboard.c] Error 1
+Make finished with errors
+make: *** [Makefile:428: c75stm:default] Error 1
+[Alex AN515-53@Alex-AN515-53 vial-qmk]$
